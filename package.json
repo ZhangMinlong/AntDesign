@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }}",
+  "name": "{{name}}",
   "version": "0.1.0",
   "private": true,
   "description": "",
@@ -9,7 +9,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "ant-design-vue": "^3.2.10",
+    "ant-design-vue": "1.7",
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
