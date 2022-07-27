@@ -1,5 +1,5 @@
 import axios from "axios";
-import {  Message } from "element-ui";
+import {  message } from "ant-design-vue"
 
 // create an axios instance
 const service = axios.create({
@@ -23,7 +23,7 @@ service.interceptors.response.use(
     return response.data
   },
   (error) => {
-    // Message.error(error);
+    // message.error(error);
     return Promise.reject(error);
   }
 );
